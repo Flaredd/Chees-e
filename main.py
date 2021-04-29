@@ -13,12 +13,9 @@ async def on_ready():
       return
 
     if message.content.startswith('chees e'):
-      await message.channel.send('c')
-      await message.channel.send('h')
-      await message.channel.send('e')
-      await message.channel.send('e')
-      await message.channel.send('s')
-      await message.channel.send('e')
+      await message.channel.send('https://youtu.be/y3qrHn0WALs')
+      await message.channel.send('https://cdn.discordapp.com/attachments/837072531420479530/837210836656979988/Ua9ddbc0277b84e37b4395c2dfe5eb40aV.jpg ')
+      await message.channel.send('chees e')
 
 my_secret = os.environ['TOKEN']
 
