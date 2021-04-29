@@ -36,8 +36,7 @@ async def on_ready():
       await message.channel.send(':cheese: chees e')
       
     if message.content.startswith('_bra'):
-      await message.channel.send('https://cdn.discordapp.com/attachments/837072531420479530/837244529282646016/Cheese_meme.gif')
-      time.sleep(1.5)
+      time.sleep(1)
       await message.channel.send(':regional_indicator_l:')
       
 
