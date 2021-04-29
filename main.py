@@ -22,6 +22,4 @@ async def on_ready():
       time.sleep(0.5)
       await message.channel.send('chees e')
 
-my_secret = os.environ['TOKEN']
-
 client.run(os.getenv('TOKEN'))    
