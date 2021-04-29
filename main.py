@@ -15,9 +15,10 @@ async def on_ready():
 
     if message.content.startswith('chees e'):
       await message.channel.send('-stop')
+      time.sleep(0.5)
       await message.channel.send('-p cheese meme')
-      time.sleep(3)
       await message.channel.send('https://cdn.discordapp.com/attachments/837072531420479530/837210836656979988/Ua9ddbc0277b84e37b4395c2dfe5eb40aV.jpg ')
+      time.sleep(0.5)
       await message.channel.send('chees e')
 
 my_secret = os.environ['TOKEN']
