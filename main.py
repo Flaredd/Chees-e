@@ -16,8 +16,6 @@ async def on_ready():
     if message.content.startswith('chees e'):
       await message.channel.send('https://cdn.discordapp.com/attachments/837072531420479530/837244529282646016/Cheese_meme.gif')
       time.sleep(1.5)
-#      await message.channel.send('https://cdn.discordapp.com/attachments/837072531420479530/837210836656979988/Ua9ddbc0277b84e37b4395c2dfe5eb40aV.jpg ')
-#      time.sleep(0.5)
       await message.channel.send(':cheese: chees e')
       time.sleep(10)
     
@@ -32,5 +30,11 @@ async def on_ready():
       time.sleep(2)
       await message.channel.send('here are his body parts:')   
       await message.channel.send(':white_large_square: :white_medium_small_square::white_medium_square::white_small_square::white_medium_small_square::white_large_square::white_medium_small_square::white_small_square::white_small_square::white_medium_square::white_medium_small_square::white_large_square::white_medium_small_square::white_medium_square::white_small_square: ')    
-      
+    if message.content.startswith('e seehc'):
+      await message.channel.send('https://cdn.discordapp.com/attachments/837072531420479530/837244529282646016/Cheese_meme.gif')
+      time.sleep(1.5)
+      await message.channel.send(':cheese: chees e')
+
+
+
 client.run(os.getenv('TOKEN'))    
